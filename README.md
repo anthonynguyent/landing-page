@@ -2,6 +2,8 @@
 
 A landing page with a hero section, information section, testimonial section, signup section, header, and footer. The project demonstrates the usage of HTML, CSS, and Flexbox.
 
+Reference: https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png
+
 ## Installation
 
 Clone the repository and open the project folder. Then, open the index.html file in your web browser.
