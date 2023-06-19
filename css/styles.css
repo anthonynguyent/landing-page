@@ -3,10 +3,12 @@ body {
 
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     margin: 0;
+    padding: 0;
 
-    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -30,6 +32,13 @@ li {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    /* height: 3rem; */
+    flex: 0.1;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
 }
 
 .logo {
@@ -43,23 +52,66 @@ li {
 }
 
 .hero {
+    background-color: #1F2937;
+    flex: 3;
+    display: flex;
+    padding: 10rem 20rem; 
+    margin: 0;
+    gap: 10rem;
+}
 
+.left-hero {
+    flex: 1;
+}
+
+.left-hero h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.left-hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.left-hero button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: 0;
+    border-radius: 7%;
+    padding: 0.5rem 1.5rem;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.right-hero {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    background-color: grey;
+    font-size: 18px;
 }
 
 .information {
-
+    flex: 3;
 }
 
 .testimonial {
-
+    background-color: #E5E7EB;
+    flex: 3;
 }
 
 .signup {
-
+    flex: 3;
 }
 
 .footer {
     background-color: #1F2937;
     text-align: center;
     color: #E5E7EB;
+    /* height: 3rem; */
+    flex: 0.1;
 }
