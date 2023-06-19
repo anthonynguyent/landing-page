@@ -1,27 +1,63 @@
 # landing-page
 
-A landing page with a hero section, information section, testimonial section, signup section, header, and footer. The project demonstrates the usage of HTML, CSS, and Flexbox.
+This project serves as a demonstration of my proficiency in HTML, CSS, and Flexbox. The primary objective was to recreate a reference website from scratch, with a strong emphasis on achieving a well-structured layout and ensuring responsiveness across various devices. While there may be some resizing issues, the desktop version closely resembles the layout of the reference website. The website showcases a thoughtfully designed landing page, featuring key sections such as a header, hero section, information section, testimonial section, signup section, and footer. Through this project, I aimed to showcase my ability to create visually appealing and functional web pages using fundamental web technologies.
 
-Reference: https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png
+## Technologies Used
 
-## Installation
+- HTML5
+- CSS3
+- Flexbox
+- Visual Studio Code
 
-Clone the repository and open the project folder. Then, open the index.html file in your web browser.
+## Project Structure
+
+The project consists of the following files:
+
+- `index.html`: The main HTML file that represents the structure of the landing page.
+- `css/styles.css`: The CSS file that defines the styles for the HTML elements.
+
+## Features
+
+- **Responsive Design**: The website is designed to be fully responsive, ensuring a consistent user experience across different devices and screen sizes.
+- **Header Section**: The header section includes a logo and navigation links styled with a modern look.
+- **Hero Section**: The hero section features a captivating headline, subtext, and a call-to-action button.
+- **Information Section**: The information section displays multiple information boxes with accompanying illustrations or images.
+- **Testimonial Section**: The testimonial section showcases a quote or testimonial from a customer, adding credibility to the website.
+- **Signup Section**: The signup section includes a call-to-action prompt and a signup button, encouraging visitors to take action.
+- **Footer Section**: The footer displays the copyright information for the website.
 
 ## Usage
 
-The landing page consists of the following sections:
+To use this project locally, follow these steps:
 
-- **Header section**: Contains navigation or branding elements. Include a logo and menu links using HTML elements like `<header>`, `<nav>`, `<ul>`, and `<li>`. CSS can be applied to style the elements, set background colors, adjust font styles, and create responsive navigation.
+1. Clone the repository to your local machine.
+2. Open the `index.html` file in your preferred web browser.
 
-- **Hero section**: Introduces the project or brand. HTML elements such as `<div>`, `<h1>`, and `<img>` can be used to structure the section. CSS can be applied to style the elements, such as setting background images, adjusting font sizes, and adding padding or margins.
+## Demo
 
-- **Information section**: Provides more details about the product or service. Utilize HTML elements like `<p>`, `<h2>`, and `<img>` to create the desired content structure. CSS can be applied to format the text, position the images, and control the spacing.
+You can view a live demo of the project [here](https://anthonynguyent.github.io/landing-page/).
 
-- **Testimonial section**: Displays quotes or feedback from satisfied customers or users. Include testimonials using HTML elements like `<div>`, `<blockquote>`, and `<cite>`. CSS can be applied to style the blockquote, adjust the font styles, and add decorative elements.
+## Screenshots
 
-- **Signup section**: Allows visitors to sign up for updates or newsletters. HTML elements such as `<div>`, `<form>`, `<input>`, and `<button>` can be used to create the signup form. CSS can be applied to style the form elements, apply appropriate spacing, and create a visually appealing design.
+![Reference Website 1](screenshots/reference%20website%201.png)
+*Top half of reference website*
 
-- **Footer section**: Includes additional links, legal information, or contact details. Utilize HTML elements such as `<footer>`, `<ul>`, and `<li>` to structure the footer. CSS can be applied to style the elements, set background colors, adjust font styles, and create a visually appealing design.
+![Reference Website 2](screenshots/reference%20website%202.png)
+*Bottom half of reference website*
 
-The HTML, CSS, and flexbox skills showcased in this project can be found in the respective files.
+![Recreated Website 1](screenshots/recreated%20website%201.png)
+*Top third of recreated website*
+
+![Recreated Website 2](screenshots/recreated%20website%202.png)
+*Middle third of recreated website*
+
+![Recreated Website 3](screenshots/recreated%20website%203.png)
+*Bottom third of recreated website*
+
+## Acknowledgements
+
+This project was inspired by [The Odin Project](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png) and was created as part of a personal learning experience to enhance my HTML, CSS, and Flexbox skills.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).

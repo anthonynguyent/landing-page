@@ -90,7 +90,7 @@ li {
 }
 
 .hero-right {
-    flex: 1;
+    flex: 1 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -183,8 +183,10 @@ li {
     gap: 3rem;
     margin: 5rem 20rem;
     border-radius: 0.5rem;
-    padding: 4rem 12rem;
     color: white;
+
+    /* Resizing issues */
+    padding: 4rem 12rem;
     gap: 15rem;
 }
 
