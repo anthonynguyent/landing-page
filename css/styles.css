@@ -27,6 +27,8 @@ li {
     margin: 0 1rem;
 }
 
+/* HEADER SECTION */
+
 .header {
     background-color: #1F2937;
     display: flex;
@@ -34,11 +36,6 @@ li {
     align-items: center;
     /* height: 3rem; */
     flex: 0.1;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
 }
 
 .logo {
@@ -51,6 +48,8 @@ li {
     display: flex;
 }
 
+/* HERO SECTION */
+
 .hero {
     background-color: #1F2937;
     flex: 3;
@@ -60,22 +59,22 @@ li {
     gap: 10rem;
 }
 
-.left-hero {
+.hero-left {
     flex: 1;
 }
 
-.left-hero h1 {
+.hero-left h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
 }
 
-.left-hero p {
+.hero-left p {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.left-hero button {
+.hero-left button {
     background-color: #3882F6;
     color: #E5E7EB;
     border: 0;
@@ -85,7 +84,7 @@ li {
     font-weight: bold;
 }
 
-.right-hero {
+.hero-right {
     flex: 1;
     display: flex;
     justify-content: center;
@@ -95,18 +94,57 @@ li {
     font-size: 18px;
 }
 
+/* INFORMATION SECTION */
+
 .information {
     flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.information-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.information-boxes {
+    display: flex;
+    gap: 4rem;
+}
+
+.information-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 10rem;
+}
+
+.box {
+    width: 10rem;
+    height: 10rem;
+    border: 0.3rem solid #3882F6;
+    border-radius: 10%;
+}
+
+/* TESTIMONIAL SECTION */
 
 .testimonial {
     background-color: #E5E7EB;
     flex: 3;
 }
 
+/* SIGNUP SECTION */
+
 .signup {
     flex: 3;
 }
+
+/* FOOTER SECTION */
 
 .footer {
     background-color: #1F2937;
